@@ -30,52 +30,32 @@
         <section class="bg-dark-subtle">
             <div class="container">
                 <div class="vh-100 d-flex flex-column justify-content-center align-items-center">
-                    <!-- start game -->
+
+                    <!-- start game btn -->
                     <div>
-                        <button type="button" id="start-btn" class="btn btn-dark my-3">Start Game</button>
+                        <button type="button" id="start-btn" class="btn btn-lg btn-dark my-3">Start Game</button>
                     </div>
+                    <!-- countdown -->
+                     <div id="counter" class="fs-1 fw-bold my-3 d-none">10</div>
+                    <!-- cpu randoms numbers -->
                     <div id="cpu-num-container" class="row justify-content-center d-none">
                         <div class="col">
-                            <input type="number" id="cpu-num1" class="form-control cpu-num">
+                            <input type="number" id="cpu-num1" class="form-control cpu-num text-center fs-2" disabled>
                         </div>
                         <div class="col">
-                            <input type="number" id="cpu-num2" class="form-control cpu-num">
+                            <input type="number" id="cpu-num2" class="form-control cpu-num text-center fs-2" disabled>
                         </div>
                         <div class="col">
-                            <input type="number" id="cpu-num3" class="form-control cpu-num">
+                            <input type="number" id="cpu-num3" class="form-control cpu-num text-center fs-2" disabled>
                         </div>
                         <div class="col">
-                            <input type="number" id="cpu-num4" class="form-control cpu-num">
+                            <input type="number" id="cpu-num4" class="form-control cpu-num text-center fs-2" disabled>
                         </div>
                         <div class="col">
-                            <input type="number" id="cpu-num5" class="form-control cpu-num">
+                            <input type="number" id="cpu-num5" class="form-control cpu-num text-center fs-2" disabled>
                         </div>
                     </div>
 
-
-                    <!-- user number -->
-                    <div id="user-num-container" class="d-none">
-                        <h5 class="text-center my-3">
-                            Inserisci tutti i numeri che ricordi (l'ordine non è importante)
-                        </h5>
-                        <div class="row justify-content-center">
-                            <div class="col">
-                                <input type="number" id="num1" class="form-control user-num">
-                            </div>
-                            <div class="col">
-                                <input type="number" id="num2" class="form-control user-num">
-                            </div>
-                            <div class="col">
-                                <input type="number" id="num3" class="form-control user-num">
-                            </div>
-                            <div class="col">
-                                <input type="number" id="num4" class="form-control user-num">
-                            </div>
-                            <div class="col">
-                                <input type="number" id="num5" class="form-control user-num">
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
         </section>
