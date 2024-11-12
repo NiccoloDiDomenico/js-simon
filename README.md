@@ -16,3 +16,24 @@ Consigli del giorno:
 - Dividete in piccoli problemi la consegna.
 - Individuate gli elementi di cui avete bisogno per realizzare il programma.
 - Immaginate la logica come fosse uno snack: "Dati 2 array di numeri, indica quali e quanti numeri ci sono in comune tra i due array"
+**LOGICA**
+Al click sul bottone start game:
+- nascondo gli input dalla pagina
+- blocco il bottone start 
+- genero i numeri random
+- mostro i numeri random in pagina
+- faccio partire il timer di 30 secondi
+Allo scadere del timer:
+- stop timer
+- nascondo i cpuNumeber
+- mostro gli input per l'utente
+Al click sul bottone check:
+- prelevo tutti i valori degli input
+- dichiaro l'arrey di num indovinati
+- per ogni valore degli input controllo se (è incluso nell'arrey di cpuNumber)
+    - se (true) {
+        - pusho i numeri inclusi nell'arrey finale di numeri indovinati
+    }
+Alla fine:
+- Stampo il messaggio con il risultato.
+
